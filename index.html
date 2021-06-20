@@ -1,103 +1,100 @@
 <!doctype html>
 <html lang="en">
+
 <head>
+<!--	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Module 3 Solution</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/styles.css"> -->
+	
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Food, LLC</title>
-	<link href="https://fonts.googleapis.com/css?family=Exo+2:400,500,600,700" rel="stylesheet">
+	<title>Module 3 Solution</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
 </head>
+
 <body>
 	<header>
 		<nav id="header-nav" class="navbar navbar-default">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-collapsable-nav" aria-expanded="false">
+					<div class="navbar-brand">
+						<a href="index.html">
+							<h1>Food, LLC</h1>
+						</a>
+					</div>
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="#" class="text-left navbar-brand"><h1>Food, LLC</h1></a>
-				</div><!-- /.nav-header -->
-				<div id="menu-collapsable-nav" class="collapse navbar-collapse">
-					<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
-						<li>
-							<a href="#">Chicken</a>
-						</li>
-						<li>
-							<a href="#">Beef</a>
-						</li>
-						<li>
-							<a href="#">Sushi</a>
-						</li>
+				</div>
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav visible-xs">
+						<li><a href="#chicken" class="text-center">Chicken</a></li>
+						<li><a href="#beef" class="text-center">Beef</a></li>
+						<li><a href="#sushi" class="text-center">Sushi</a></li>
 					</ul>
-				</div>
-			</div><!-- /.container-->
-		</nav>
-		<section class="container-fluid menu">
-			<div class="row">
-				<h1 class="text-center main-title">Our Menu</h1>
-				<div class="menu-content">
-					<div class="col-md-12 col-sm-12 col-xs-12 menu-item">
-						<h4 class="menu-title text-center">Chicken</h4>
-						<p class="text-justify">
-							Chicken is the most common type of poultry in the world.[1] Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs, chickens have become prevalent in numerous cuisines.
-
-							Chicken can be prepared in a vast range of ways, including baking, grilling, barbecuing, frying, and boiling. Since the latter half of the 20th century, prepared chicken has become a staple of fast food. Chicken is sometimes cited as being more healthful than red meat, with lower concentrations of cholesterol and saturated fat.[2]
-
-							The poultry farming industry that accounts for chicken production takes on a range of forms across different parts of the world. In developed countries, chickens are typically subject to intensive farming methods while less-developed areas raise chickens using more traditional farming techniques. The United Nations estimates there to be 19 billion chickens on Earth today, making them outnumber humans more than two to one.[3]
-
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<h1 class="text-center main-title">Our Menu</h1>
-				<div class="menu-content">
-					<div class="col-md-12 col-sm-12 col-xs-12 menu-item">
-						<h4 class="menu-title text-center">Beef</h4>
-						<p class="text-justify">
-							Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of protein and nutrients.[2]
-
-							Most beef can be used as is by merely cutting into certain parts, such as roasts, short ribs or steak (filet mignon, sirloin steak, rump steak, rib steak, rib eye steak, hanger steak, etc.), while other cuts are processed (corned beef or beef jerky). Trimmings, on the other hand, which are usually mixed with meat from older, leaner (therefore tougher) cattle, are ground, minced or used in sausages. The blood is used in some varieties called blood sausage. Other parts that are eaten include other muscles and offal, such as the oxtail, liver, tongue, tripe from the reticulum or rumen, glands (particularly the pancreas and thymus, referred to as sweetbread), the heart, the brain (although forbidden where there is a danger of bovine spongiform encephalopathy, BSE, commonly referred to as mad cow disease), the kidneys, and the tender testicles of the bull (known in the United States as calf fries, prairie oysters, or Rocky Mountain oysters). Some intestines are cooked and eaten as is,[3] but are more often cleaned and used as natural sausage casings. The bones are used for making beef stock. Meat from younger cows (calves) is called veal.
-
-							Beef from steers and heifers is similar.[4] Depending on economics, the number of heifers kept for breeding varies. The meat from older bulls, because it is usually tougher, is frequently used for mince (known as ground beef in the United States). Cattle raised for beef may be allowed to roam free on grasslands, or may be confined at some stage in pens as part of a large feeding operation called a feedlot (or concentrated animal feeding operation), where they are usually fed a ration of grain, protein, roughage and a vitamin/mineral preblend.
-
-							Beef is the third most widely consumed meat in the world, accounting for about 25% of meat production worldwide, after pork and poultry at 38% and 30% respectively.[5] In absolute numbers, the United States, Brazil, and the People's Republic of China are the world's three largest consumers of beef; Uruguay, however, has the highest beef and veal consumption per capita, followed by Argentina and Brazil. According to the data from OECD, the average Uruguayan ate over 42 kg (93 lb) of beef or veal in 2014, representing the highest beef/veal consumption per capita in the world. In comparison, the average American consumed only about 24 kg (53 lb) beef or veal in the same year, while African countries, such as Mozambique, Ghana, and Nigeria, consumed the least beef or veal per capita.
-
-							In 2018, the United States, Brazil, and China produced the most beef with 12.22 million tons, 9.9 million tons, and 6.46 million tons respectively.[6] The top 3 beef exporting countries in 2019 were Australia (14.8% of total exports), the United States (13.4% of total exports), and Brazil (12.6% of total exports).[7] Beef production is also important to the economies of Japan, Argentina, Uruguay, Canada, Paraguay, Mexico, Belarus and Nicaragua.
-
-							Beef production has a high environmental impact per gram of protein.[8][9].
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<h1 class="text-center main-title">Our Menu</h1>
-				<div class="menu-content">
-					<div class="col-md-12 col-sm-12 col-xs-12 menu-item">
-						<h4 class="menu-title text-center">Sushi</h4>
-						<p class="text-justify">
-							Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari (しゃり), or sumeshi (酢飯).[1]
-
-							Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian. It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.
-
-							Sushi is sometimes confused with sashimi, a related dish in Japanese cuisine that consists of thinly sliced raw fish or occasionally meat.[2][better source needed].
-						</p>
-					</div>
-				</div>
-			</div>
-
-		</section>
+				</div><!-- .collapse .navbar-collapse -->
+			</div><!-- .container -->
+		</nav><!-- #header-nav -->
 	</header>
-	<!-- jQuery (Bootstrap JS plugins depend on it) -->
-	<script src="js/jquery-3.1.1.min.js"></script>
+
+	<div id="main-content" class="container">
+		<h2 id="page-title" class="text-center">Our Menu</h2>
+		<section class="row">
+			<div id="main-text" class="col-xs-12">
+				<div class="text-background">
+					<h3 id="chicken">Chicken</h3>
+					<p>
+						Chicken is the most common type of poultry in the world.[1] Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs, chickens have become prevalent in numerous cuisines.
+
+						Chicken can be prepared in a vast range of ways, including baking, grilling, barbecuing, frying, and boiling. Since the latter half of the 20th century, prepared chicken has become a staple of fast food. Chicken is sometimes cited as being more healthful than red meat, with lower concentrations of cholesterol and saturated fat.[2]
+
+						The poultry farming industry that accounts for chicken production takes on a range of forms across different parts of the world. In developed countries, chickens are typically subject to intensive farming methods while less-developed areas raise chickens using more traditional farming techniques. The United Nations estimates there to be 19 billion chickens on Earth today, making them outnumber humans more than two to one.[3]
+					</p>
+					<h3 id="beef">Beef</h3>
+					<p>
+						Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of protein and nutrients.[2]
+
+						Most beef can be used as is by merely cutting into certain parts, such as roasts, short ribs or steak (filet mignon, sirloin steak, rump steak, rib steak, rib eye steak, hanger steak, etc.), while other cuts are processed (corned beef or beef jerky). Trimmings, on the other hand, which are usually mixed with meat from older, leaner (therefore tougher) cattle, are ground, minced or used in sausages. The blood is used in some varieties called blood sausage. Other parts that are eaten include other muscles and offal, such as the oxtail, liver, tongue, tripe from the reticulum or rumen, glands (particularly the pancreas and thymus, referred to as sweetbread), the heart, the brain (although forbidden where there is a danger of bovine spongiform encephalopathy, BSE, commonly referred to as mad cow disease), the kidneys, and the tender testicles of the bull (known in the United States as calf fries, prairie oysters, or Rocky Mountain oysters). Some intestines are cooked and eaten as is,[3] but are more often cleaned and used as natural sausage casings. The bones are used for making beef stock. Meat from younger cows (calves) is called veal.
+
+						Beef from steers and heifers is similar.[4] Depending on economics, the number of heifers kept for breeding varies. The meat from older bulls, because it is usually tougher, is frequently used for mince (known as ground beef in the United States). Cattle raised for beef may be allowed to roam free on grasslands, or may be confined at some stage in pens as part of a large feeding operation called a feedlot (or concentrated animal feeding operation), where they are usually fed a ration of grain, protein, roughage and a vitamin/mineral preblend.
+
+						Beef is the third most widely consumed meat in the world, accounting for about 25% of meat production worldwide, after pork and poultry at 38% and 30% respectively.[5] In absolute numbers, the United States, Brazil, and the People's Republic of China are the world's three largest consumers of beef; Uruguay, however, has the highest beef and veal consumption per capita, followed by Argentina and Brazil. According to the data from OECD, the average Uruguayan ate over 42 kg (93 lb) of beef or veal in 2014, representing the highest beef/veal consumption per capita in the world. In comparison, the average American consumed only about 24 kg (53 lb) beef or veal in the same year, while African countries, such as Mozambique, Ghana, and Nigeria, consumed the least beef or veal per capita.
+
+						In 2018, the United States, Brazil, and China produced the most beef with 12.22 million tons, 9.9 million tons, and 6.46 million tons respectively.[6] The top 3 beef exporting countries in 2019 were Australia (14.8% of total exports), the United States (13.4% of total exports), and Brazil (12.6% of total exports).[7] Beef production is also important to the economies of Japan, Argentina, Uruguay, Canada, Paraguay, Mexico, Belarus and Nicaragua.
+
+						Beef production has a high environmental impact per gram of protein.[8][9].
+					</p>
+					<h3 id="sushi">Sushi</h3>
+					<p>
+						Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a traditional Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari (しゃり), or sumeshi (酢飯).[1]
+
+						Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian. It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.
+
+						Sushi is sometimes confused with sashimi, a related dish in Japanese cuisine that consists of thinly sliced raw fish or occasionally meat.[2][better source needed].
+					</p>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<script src="js/jquery-3.6.0.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
+
 </body>
+
 </html>
-
-
