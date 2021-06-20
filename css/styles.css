@@ -30,4 +30,18 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
+
+#main-content h3 {
+    background-color: mediumpurple;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
